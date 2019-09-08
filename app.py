@@ -25,8 +25,8 @@ def text_output():
     org_text=text
 	
 # MODEL FILE UPLOADING
-    svc_model = pickle.load(open("D:/Hackathon/svc_model_new.dat", "rb"))
-    tfidf_vectorizer = pickle.load(open("D:/Hackathon/feature_vectorizer_new.pickle", "rb"))
+    svc_model = pickle.load(open("svc_model_new.dat", "rb"))
+    tfidf_vectorizer = pickle.load(open("feature_vectorizer_new.pickle", "rb"))
 
     # PREPROCESSING OF CONVERTED TEXT
     stop_words = ["xxxx", "xxxxxxxx", "the", "when", "get", "told", "got", "one", "they", "even", "asked", "she", "i",
