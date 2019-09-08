@@ -8,10 +8,10 @@ PACKAGES REQUIRED:
 5) nltk
 6) sklearn
 
-This is text classification model 
-instruction to run the file
+This is a text classification model.<br> 
+The following are the instructions to run the file<br>
 1)Install the required packages<br>
-2)The svc model file 'svc_model_new.dat' is loaded using pickle
-3)Make sure to change the file path before running the app
+2)The svc model file 'svc_model_new.dat' is loaded using pickle<br>
+3)Make sure to change the file path before running the app<br>
 4)Similarly change the file path for the 'feature_vectorizer_new.pickle' file
 
