@@ -10,7 +10,7 @@ PACKAGES REQUIRED:
 
 This is text classification model 
 instruction to run the file
-1)Install the required packages
+1)Install the required packages<br>
 2)The svc model file 'svc_model_new.dat' is loaded using pickle
 3)Make sure to change the file path before running the app
 4)Similarly change the file path for the 'feature_vectorizer_new.pickle' file
