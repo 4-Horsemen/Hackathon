@@ -14,6 +14,8 @@ app =Flask(__name__,template_folder="templates")
 def first_page():
     return render_template('index.html')
 
+    # test commands to update check 
+
 @app.route('/input')
 def  input():
     return render_template("index.html")
