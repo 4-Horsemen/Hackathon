@@ -24,6 +24,9 @@ def text_output():
     text = request.args.get('text')
     org_text=text
 	
+
+
+     
 # MODEL FILE UPLOADING
     svc_model = pickle.load(open("svc_model_new.dat", "rb"))
     tfidf_vectorizer = pickle.load(open("feature_vectorizer_new.pickle", "rb"))
