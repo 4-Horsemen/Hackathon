@@ -12,7 +12,7 @@ app =Flask(__name__,template_folder="templates")
 
 @app.route('/')
 def first_page():
-    return render_template('eg.html')
+    return render_template('index.html')
 
 @app.route('/input')
 def  input():
